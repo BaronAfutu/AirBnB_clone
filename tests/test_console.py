@@ -14,7 +14,7 @@ Unittest classes:
 import os
 import sys
 import unittest
-from models.engine.file_storage import FileStorage as storage
+from models import storage
 from models.engine.file_storage import FileStorage
 from console import HBNBCommand
 from io import StringIO
